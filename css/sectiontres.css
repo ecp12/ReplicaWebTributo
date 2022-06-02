@@ -1,0 +1,76 @@
+@media(min-width:375px) and (max-width: 667px){
+    .contededorAbout{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .gato{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .catDog{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+}
+.fondotres{
+    background-repeat: no-repeat;
+    background: url(../assets/gatodos.jpeg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 950px;
+    background-clip: border-box;
+    position: relative ;
+    height: 100%;
+    width: 100%;
+}
+.catDog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 135px;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+.imagenCat{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 10px;
+    
+}
+.gato{
+    width: 455px;
+    height: 435px;;
+    border-radius: 50%;
+}
+.textoPrimero{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+.textoSegundo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: inherit;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+
+
+.textoUno{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}
+.textoDos{
+    text-align: center;
+    font-family: monospace;
+    font-size: 30px;
+}

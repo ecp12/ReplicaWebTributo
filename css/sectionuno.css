@@ -1,0 +1,112 @@
+
+@media(min-width:375px) and (max-width: 667px){
+    .fondo{
+        display: flex;
+        flex-direction: column !important;
+        padding: 10px;
+    }
+    .objetivocamara{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .ObjetivoImagen{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    .contenedorTexto{
+        padding: 0% !important;
+    }
+    .textoPrincipal{
+        font-size: 30px !important;
+    }
+    .fondo{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .fondoContenedor{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .button{
+        display:flex;
+        flex-direction: column !important;
+    }
+
+}
+
+.fondo{
+    background-repeat: no-repeat;
+    background: url(../assets/wallpaper.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 975px;
+    background-clip: border-box;
+    position: relative ;
+    height: 100%;
+    width: 100%;
+   
+}
+.fondoContenedor{
+    display: flex;
+    margin-top: 205px;
+    justify-content: space-between;
+    margin-left: 84px;
+    margin-right: 84px;
+}
+.contenedorTexto{
+    display: flex;
+   padding-left: 250px;
+}
+.ObjetivoImagen{
+    width: 455px;
+    height: 435px;;
+    border-radius: 50%;
+
+}
+
+.contenedorImagen{
+    display: flex;
+}
+.textoPrincipal{
+    padding-left: 90px;
+    box-sizing: border-box;
+    display: flex;
+    padding: 24px;
+    background: linear-gradient(180.39deg, #2962FF 0.34%, rgba(255, 255, 255, 0) 99.66%);
+    border-radius: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    width: 100%;
+    border: black;
+    border-bottom-style: double;
+}
+.contenedorButton{
+    padding-top: 50px;
+   display: flex;
+   justify-content: center;
+   z-index: 2;
+    
+}
+.boton{
+    border: 2px solid #3c73ff;
+    background-color: #3c73ff;
+    border-radius: 20px;
+    color: #fff;
+    transition: .3s;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+.linkBoton{
+    color: white;
+}
+
+.boton:hover {
+    box-shadow: 8px 8px #99bdff;
+    transition: .3s;
+    font-size: 17px;
+  }
+
+
